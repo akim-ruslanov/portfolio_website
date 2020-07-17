@@ -30,7 +30,7 @@ export default class NavbarComponent extends Component {
             <ul className="navbar-nav ml-auto">
             <li className="nav-item">
                   <a className="nav-link" href="www.github.com/akim-ruslanov">
-                  <i class="fa fa-github" aria-hidden="true"></i>
+                  <i className="fa fa-github" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -40,7 +40,7 @@ export default class NavbarComponent extends Component {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="www.github.com/akim-ruslanov">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
                   </a>
                 </li>
                 <li className="nav-item">

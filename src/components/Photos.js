@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { photos } from "../photos";
 import Photo from "./Photo";
 import {ProjectConsumer} from '../context'
 export default class Photos extends Component {

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Photo extends Component {
     render() {
-        const {img, title} = this.props.photo;
+        const {img} = this.props.photo;
         return (
             // <div className="frame col-9 mx-auto col-md-6 col-lg-3 my-3">
             //     <div>

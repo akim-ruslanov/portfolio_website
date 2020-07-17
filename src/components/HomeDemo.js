@@ -5,16 +5,16 @@ export default class Home extends Component {
     return (
       <TitleWrapper>
         <div className="container">
-          <div class="box">
-            <div class="title">
-              <span class="block"></span>
+          <div className="box">
+            <div className="title">
+              <span className="block"></span>
               <h1>
                 Akim Ruslanov<span></span>
               </h1>
             </div>
 
-            <div class="role">
-              <div class="block"></div>
+            <div className="role">
+              <div className="block"></div>
               <p>software developer based in vancouver</p>
             </div>
           </div>

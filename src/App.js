@@ -3,7 +3,6 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Switch, Route } from "react-router-dom";
 import NavbarComponent from "./components/Navbar";
-import Home from "./components/Home";
 import Projects from "./components/Projects";
 import HomeDemo from './components/HomeDemo';
 import Details from './components/Details';
@@ -16,7 +15,7 @@ function App() {
       <NavbarComponent />
       <Switch>
         <Route exact path="/" component={HomeDemo}></Route>
-          <Route path="/fotos" component={Photos}></Route>
+          <Route exact path="/fotos" component={Photos}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/demo" component={HomeDemo}></Route>
           <Route path="/details/:projectID" component={Details}></Route>
