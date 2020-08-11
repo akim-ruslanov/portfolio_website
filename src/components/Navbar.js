@@ -28,27 +28,37 @@ export default class NavbarComponent extends Component {
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-                  <a className="nav-link" href="www.github.com/akim-ruslanov">
+              <li className="nav-item">
+                <a className="nav-link" href="https://www.linkedin.com/in/akim-r-945a34141/">
+                  <i className="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://akim-ruslanov.github.io/resume_web/">
+                  Resume
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/akim-ruslanov">
                   <i className="fa fa-github" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/projects">
-                    Projects
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="www.github.com/akim-ruslanov">
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/projects">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://www.instagram.com/akimruslanov/?hl=en">
                   <i className="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="/fotos">
-                    Photos
-                  </a>
-                </li>
-              </ul>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/fotos">
+                  Photos
+                </a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>

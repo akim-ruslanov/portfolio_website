@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Photo from "./Photo";
-import {ProjectConsumer} from '../context'
+import { ProjectConsumer } from "../context";
 export default class Photos extends Component {
   render() {
     return (
@@ -15,11 +15,6 @@ export default class Photos extends Component {
           </div>
         </div>
         <div className="container">
-          {/* <ul className="photo-ul">
-            {photos.map((photo) => {
-              return <Photo photo={photo} />;
-            })}
-          </ul> */}
           <ul className="photo-ul">
             <ProjectConsumer>
               {(value) => {

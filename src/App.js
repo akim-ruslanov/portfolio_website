@@ -9,16 +9,18 @@ import Details from './components/Details';
 // import Contact from './components/Contact';
 // import NotFound from './components/NotFouond';
 import Photos from "./components/Photos";
+import Login from './components/Login';
 function App() {
   return (
     <React.Fragment>
       <NavbarComponent />
       <Switch>
         <Route exact path="/" component={HomeDemo}></Route>
-          <Route exact path="/fotos" component={Photos}></Route>
+          <Route path="/fotos/" component={Photos}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/demo" component={HomeDemo}></Route>
           <Route path="/details/:projectID" component={Details}></Route>
+          <Route path="/login" component={Login}></Route>
         {/* <Route path="/contact" component={Contact}></Route> */}
         {/* <Route component={NotFound}></Route> */}
       </Switch>

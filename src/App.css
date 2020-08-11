@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 body {
   /* background-image: url('./img/bg.png'); */
-  background-image: url('/img/bg.jpg');
+  /* background-image: url('/img/bg.jpg'); */
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   background-size: contain;
   background-attachment: fixed;
   background-position: right;

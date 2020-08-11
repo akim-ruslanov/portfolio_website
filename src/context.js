@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {projects, detailProject} from './data';
+import {photos} from './photos'
 const ProjectContext = React.createContext();
 
 class ProjectProvider extends Component {
@@ -26,13 +27,22 @@ class ProjectProvider extends Component {
     }
 
     setPhotos = ()=> {
-        fetch('/photos.txt')
-    .then((r) => r.text())
-    .then(text  => {
-      this.setState({
-          photos: JSON.parse(text)
-      })
-    })  
+    //     fetch('/photos.txt')
+    // .then((r) => r.text())
+    // .then(text  => {
+    //   this.setState({
+    //       photos: JSON.parse(text)
+    //   })
+    // })  
+        let tempPhotos = [];
+        photos.forEach(photo => {
+            const singlePhoto = {...photo};
+            tempPhotos = [...tempPhotos, singlePhoto];
+        });
+        this.setState(() => {
+            return {photos: tempPhotos}
+        });
+        
     }
 
     getProject = (id)=> {
