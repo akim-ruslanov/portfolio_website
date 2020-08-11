@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-const http = require("http");
+const http = require("https");
 const nounToAdj = {"Thunderstorm":"Thunderstorm","Drizzle":"Drizzly", "Rain":"Rainy", "Snow":"Snowy", "Mist":"Misty", "Smoke":"Smoky", "Haze":"Hazy", "Dust":"Dusty", "Fog":"Foggy", "Sand":"Sandy", "Ash":"Ashy",
 "Squall":"Squally", "Tornado":"Tornado", "Clear":"Clear", "Clouds":"Cloudy" }
 export default class Home extends Component {
@@ -14,7 +14,7 @@ export default class Home extends Component {
   getWeather() {
     let apiKey = "83398a467ca87021871ee033d281ce6d";
     let city = "Vancouver";
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
     let weather = null;
 
     http.get(url, (res) => {
