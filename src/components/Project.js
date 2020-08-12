@@ -11,10 +11,10 @@ export default class Project extends Component {
       )
     }
     return (
-      <div className="col-9 col-md-6 col-lg-3 my-3 d-flex align-items-stretch">
+      <div className="col-9 col-md-6 col-lg-3 my-3 mx-auto d-flex align-items-stretch">
         <div className="card">
           <div className="card-image-container">
-            <img src={img} className="card-img-top" alt="project" />
+            <img src={img[0]} className="card-img-top" alt="project" />
           </div>
           <div className="card-body">
             <h5 className="card-title">{title}</h5>

@@ -6,6 +6,7 @@ export default class Details extends Component {
     loading: true,
   };
 
+
   componentDidMount() {
     const {
       match: {

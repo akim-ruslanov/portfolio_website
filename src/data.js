@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 0,
     title: "Portfolio Website",
-    img: "/img/projects/portfolio.jpg",
+    img: ["/img/projects/portfolio.jpg", "/img/projects/portfolio_2.jpg", "/img/projects/portfolio_3.jpg"],
     lang: "React.js, Node.js, HTML, CSS",
     git: "https://github.com/akim-ruslanov/e-shop",
     demo: true,
@@ -13,7 +13,7 @@ export const projects = [
     {
       id: 1,
       title: "E-store",
-      img: "/img/projects/e-store.jpg",
+      img: ["/img/projects/e-store.jpg"],
       lang: "React.js, HTML, CSS",
     git: "https://github.com/akim-ruslanov/e-shop",
     demo: true,
@@ -24,7 +24,7 @@ export const projects = [
     {
       id: 2,
       title: "TODO web app",
-      img: "/img/projects/todo.png",
+      img: ["/img/projects/todo.png"],
       lang: "Flask, Python, sqlalchemy, HTML, CSS",
     git: "https://github.com/akim-ruslanov/todo_flask",
     demo: false,
@@ -34,7 +34,7 @@ export const projects = [
     {
       id: 3,
       title: "University Resources Web Page",
-      img: "/img/projects/uni.jpg",
+      img: ["/img/projects/uni.jpg"],
       lang: "JavaScript, TypeScript, REST API,  SQL, Promises, Mocha Tests",
       demo: false,
     git: "https://github.com/akim-ruslanov/university_query_project",
@@ -43,7 +43,7 @@ export const projects = [
     {
       id: 4,
       title: "Conway's Game of Life",
-      img: "/img/projects/game-of-life.jpg",
+      img: ["/img/projects/game-of-life.jpg"],
       lang: "React.js, HTML, CSS",
       demo: true,
       demo_link: "https://akimchi-game-of-life.netlify.app/",
@@ -53,7 +53,7 @@ export const projects = [
     {
       id: 5,
       title: "Pathfinding Algorithms",
-      img: "/img/projects/path-finding.jpg",
+      img: ["/img/projects/path-finding.jpg"],
       lang: "Python, PyGame, OOP",
       demo: false,
     git: "https://github.com/akim-ruslanov/path_finding",
@@ -62,7 +62,7 @@ export const projects = [
     {
       id: 6,
       title: "Web Resume",
-      img: "/img/projects/resume.jpg",
+      img: ["/img/projects/resume.jpg"],
       lang: "jQuery, HTML, CSS",
       demo: true,
       demo_link: "https://akim-ruslanov.github.io/resume_web/",
@@ -72,7 +72,7 @@ export const projects = [
     {
       id: 7,
       title: "Web Scraping",
-      img: "/img/projects/web-scraping.jpg",
+      img: ["/img/projects/web-scraping.jpg"],
       lang: "JavaScript, TypeScript, SQL",
       demo: false,
     git: "https://github.com/akim-ruslanov/resume/tree/master/python%20scripts",
@@ -81,7 +81,7 @@ export const projects = [
     {
       id: 8,
       title: "2048",
-      img: "/img/projects/2048.jpg",
+      img: ["/img/projects/2048.jpg"],
       lang: "Java, Swing, JUnit",
       demo: false,
     git: "https://github.com/akim-ruslanov/2048",

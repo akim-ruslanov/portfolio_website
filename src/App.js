@@ -5,7 +5,8 @@ import { Switch, Route } from "react-router-dom";
 import NavbarComponent from "./components/Navbar";
 import Projects from "./components/Projects";
 import HomeDemo from './components/HomeDemo';
-import Details from './components/Details';
+// import Details from './components/Details';
+import DetailsDemo from './components/DetailsDemo';
 // import Contact from './components/Contact';
 // import NotFound from './components/NotFouond';
 import Photos from "./components/Photos";
@@ -19,7 +20,8 @@ function App() {
           <Route path="/fotos/" component={Photos}></Route>
           <Route path="/projects" component={Projects}></Route>
           <Route path="/demo" component={HomeDemo}></Route>
-          <Route path="/details/:projectID" component={Details}></Route>
+          {/* <Route path="/details/:projectID" component={Details}></Route> */}
+          <Route path="/details/:projectID" component={DetailsDemo}></Route>
           <Route path="/login" component={Login}></Route>
         {/* <Route path="/contact" component={Contact}></Route> */}
         {/* <Route component={NotFound}></Route> */}
