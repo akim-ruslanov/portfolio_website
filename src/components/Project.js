@@ -22,10 +22,10 @@ export default class Project extends Component {
               <strong>Tags: </strong>
               {lang}
             </p>
-            <a href={`/details/${id}`} className="btn btn-primary mr-3">
+            <a href={`/details/${id}`} className="btn btn-primary mr-3 mt-3">
               Details
             </a>
-            <a href={git} className="btn btn-primary mr-3">
+            <a href={git} className="btn btn-primary mr-3 mt-3">
               GitHub
             </a>
             {demo ? render_demo_link(this.props.project.demo_link) : null}
