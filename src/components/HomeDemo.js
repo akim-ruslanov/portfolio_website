@@ -131,13 +131,13 @@ const TitleWrapper = styled.div`
 
         @media (min-width:600px) {
           h1 {
-            font-size: 32px;
+            font-size: 48px;
           }
         }
         
         @media (min-width:800px) {
           h1 {
-            font-size: 48px;
+            font-size: 52px;
           }
         }
         
@@ -204,13 +204,13 @@ const TitleWrapper = styled.div`
 
         @media (min-width:600px) {
           p {
-            font-size: 12px;
+            font-size: 18px;
           }
         }
         
         @media (min-width:800px) {
           p {
-            font-size: 18px;
+            font-size: 20px;
           }
         }
         
