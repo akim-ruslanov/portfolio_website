@@ -13,7 +13,7 @@ export const projects = [
     {
       id: 1,
       title: "E-store",
-      img: ["/img/projects/e-store.jpg"],
+      img: ["/img/projects/e-store.jpg", "/img/projects/e-store_2.jpg", "/img/projects/e-store_3.jpg"],
       lang: "React.js, HTML, CSS",
     git: "https://github.com/akim-ruslanov/e-shop",
     demo: true,
@@ -24,7 +24,7 @@ export const projects = [
     {
       id: 2,
       title: "TODO web app",
-      img: ["/img/projects/todo.png"],
+      img: ["/img/projects/todo.png", "/img/projects/todo_2.jpg","/img/projects/todo_3.jpg"],
       lang: "Flask, Python, sqlalchemy, HTML, CSS",
     git: "https://github.com/akim-ruslanov/todo_flask",
     demo: false,
@@ -34,7 +34,7 @@ export const projects = [
     {
       id: 3,
       title: "University Resources Web Page",
-      img: ["/img/projects/uni.jpg"],
+      img: ["/img/projects/uni.jpg", "/img/projects/uni_2.jpg", "/img/projects/uni_3.jpg", "/img/projects/uni_4.jpg"],
       lang: "JavaScript, TypeScript, REST API,  SQL, Promises, Mocha Tests",
       demo: false,
     git: "https://github.com/akim-ruslanov/university_query_project",
@@ -43,7 +43,7 @@ export const projects = [
     {
       id: 4,
       title: "Conway's Game of Life",
-      img: ["/img/projects/game-of-life.jpg"],
+      img: ["/img/projects/game-of-life.jpg", "/img/projects/game-of-life_1.jpg"],
       lang: "React.js, HTML, CSS",
       demo: true,
       demo_link: "https://akimchi-game-of-life.netlify.app/",
@@ -62,7 +62,7 @@ export const projects = [
     {
       id: 6,
       title: "Web Resume",
-      img: ["/img/projects/resume.jpg"],
+      img: ["/img/projects/resume.jpg", "/img/projects/resume_2.jpg"],
       lang: "jQuery, HTML, CSS",
       demo: true,
       demo_link: "https://akim-ruslanov.github.io/resume_web/",
